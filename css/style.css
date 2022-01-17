@@ -41,12 +41,10 @@ background-color: transparent;
 
 .texto-header h2{
   font-size: 27px;
-  font-weight: 300;
   color: #D3DEDC;
+  position: relative;
 }
-.containerFotoPerfil{
-  text-align: center;
-}
+
 .imgPerfil{
  margin-top: 30px;
   background-color: #4dd4ab46;
@@ -75,7 +73,7 @@ body {
 
 
 .container span{
-  font-size: 60pt;
+  font-size: 40pt;
   font-weight: bold;
   position: relative;
   cursor: pointer;
@@ -219,7 +217,7 @@ hr {
   position: relative;
   z-index: 10;
   border-radius: 50px;
-  margin: 100px;
+  margin: 100px 30px;
 }
 .profesion{
 color: #f3f3f3;
@@ -583,7 +581,6 @@ text-align: center;
 .go-top-button{
   visibility: hidden;
 }
-
 }
 @media (max-width: 354px){
   .texto-header{
